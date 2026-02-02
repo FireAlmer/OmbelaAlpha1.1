@@ -19,43 +19,7 @@ O Ombela Market é um marketplace desenvolvido como parte de um projeto universi
  *Neon Premium:* `#FF4DFF` - Realces especiais
  *Neutros:* Para legibilidade e equilíbrio
 
-
-## 🏗️ Arquitetura do Projeto
-
-```
-src/
-├── components/        # Componentes reutilizáveis UI
-│   ├── Navbar.jsx
-│   ├── ProductCard.jsx
-│   ├── CartItem.jsx
-│   ├── OrderItem.jsx
-│   ├── CheckoutSummary.jsx
-│   └── NotificationToast.jsx
-│
-├── pages/            # Páginas principais
-│   ├── Home.jsx
-│   ├── Catalog.jsx
-│   ├── Cart.jsx
-│   ├── Checkout.jsx
-│   ├── Orders.jsx
-│   └── Login.jsx
-│
-├── context/          # Gestão de estado global
-│   ├── CartContext.jsx
-│   ├── AuthContext.jsx
-│   └── NotificationContext.jsx
-│
-├── services/         # Lógica de negócio
-│   ├── ProductService.js
-│   ├── AuthService.js
-│   └── OrderService.js
-│
-└── styles/           # Estilos globais
-    └── colors.css
-```
-
-
- Padrões de Design Aplicados
+Padrões de Design Aplicados
 
  *Observer Pattern*
 Contextos (Context API): CartContext, AuthContext, NotificationContext
